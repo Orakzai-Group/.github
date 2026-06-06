@@ -1,0 +1,205 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+@keyframes tw{0%,100%{opacity:.08}50%{opacity:.85}}
+@keyframes nodeHb{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes ringPulse{0%,100%{stroke-opacity:.12}50%{stroke-opacity:.35}}
+@keyframes corePulse{0%,100%{r:18;opacity:.9}50%{r:26;opacity:1}}
+@keyframes outerRing{0%,100%{r:60;stroke-opacity:.2}50%{r:80;stroke-opacity:0}}
+</style>
+<radialGradient id="gBg" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#020208"/>
+<stop offset="100%" stop-color="#000000"/>
+</radialGradient>
+<radialGradient id="coreLightG" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#D4AF37" stop-opacity=".18"/>
+<stop offset="100%" stop-color="#000" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="nodeGrad" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#0a0a0a"/>
+<stop offset="100%" stop-color="#000"/>
+</radialGradient>
+<filter id="gf3"><feGaussianBlur stdDeviation="3"/></filter>
+<filter id="gf8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="gf15"><feGaussianBlur stdDeviation="15"/></filter>
+<!-- Orbital ring paths (center 700,380) -->
+<path id="r1" d="M 830,380 a 130,130 0 1,1 -260,0 a 130,130 0 1,1 260,0" fill="none"/>
+<path id="r2" d="M 890,380 a 190,190 0 1,1 -380,0 a 190,190 0 1,1 380,0" fill="none"/>
+<path id="r3" d="M 960,380 a 260,260 0 1,1 -520,0 a 260,260 0 1,1 520,0" fill="none"/>
+<path id="r4" d="M 1030,380 a 330,330 0 1,1 -660,0 a 330,330 0 1,1 660,0" fill="none"/>
+</defs>
+
+<rect width="1400" height="760" fill="url(#gBg)"/>
+<rect width="1400" height="760" fill="url(#coreLightG)"/>
+
+<!-- Starfield -->
+<circle cx="55" cy="42" r=".8" fill="#fff" style="animation:tw 3.8s infinite"/><circle cx="142" cy="78" r=".6" fill="#D4AF37" style="animation:tw 4.5s .5s infinite"/><circle cx="234" cy="35" r=".9" fill="#fff" style="animation:tw 5.1s 1s infinite"/><circle cx="312" cy="92" r=".7" fill="#7FDBFF" style="animation:tw 2.9s .3s infinite"/><circle cx="421" cy="28" r=".6" fill="#fff" style="animation:tw 6.2s 2s infinite"/><circle cx="534" cy="67" r=".8" fill="#D4AF37" style="animation:tw 3.4s .8s infinite"/><circle cx="48" cy="160" r=".7" fill="#fff" style="animation:tw 4.9s 1.5s infinite"/><circle cx="167" cy="195" r=".9" fill="#7FDBFF" style="animation:tw 2.7s .2s infinite"/><circle cx="1023" cy="45" r=".8" fill="#fff" style="animation:tw 5.3s 2.5s infinite"/><circle cx="1167" cy="82" r=".6" fill="#D4AF37" style="animation:tw 3.6s 1.2s infinite"/><circle cx="1289" cy="37" r=".9" fill="#fff" style="animation:tw 4.1s .4s infinite"/><circle cx="1356" cy="98" r=".7" fill="#7FDBFF" style="animation:tw 5.7s 3s infinite"/><circle cx="1198" cy="168" r=".6" fill="#fff" style="animation:tw 2.8s .7s infinite"/><circle cx="1312" cy="205" r=".8" fill="#D4AF37" style="animation:tw 6.0s 1.9s infinite"/><circle cx="78" cy="680" r=".7" fill="#7FDBFF" style="animation:tw 3.2s .6s infinite"/><circle cx="213" cy="714" r=".9" fill="#fff" style="animation:tw 4.7s 2.3s infinite"/><circle cx="1089" cy="695" r=".6" fill="#D4AF37" style="animation:tw 5.4s 1.1s infinite"/><circle cx="1245" cy="728" r=".8" fill="#fff" style="animation:tw 3.1s .9s infinite"/><circle cx="1378" cy="707" r=".7" fill="#7FDBFF" style="animation:tw 4.3s 3.2s infinite"/><circle cx="345" cy="738" r=".6" fill="#fff" style="animation:tw 2.6s .4s infinite"/><circle cx="989" cy="742" r=".9" fill="#D4AF37" style="animation:tw 5.8s 2.1s infinite"/>
+
+<!-- Orbital ring visual paths (decorative, dashed, rotating) -->
+<circle cx="700" cy="380" r="130" fill="none" stroke="#D4AF37" stroke-width=".8" stroke-dasharray="6 12" stroke-opacity=".18">
+  <animate attributeName="stroke-dashoffset" values="0;-180" dur="20s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".12;.28;.12" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="190" fill="none" stroke="#7FDBFF" stroke-width=".6" stroke-dasharray="8 14" stroke-opacity=".14">
+  <animate attributeName="stroke-dashoffset" values="0;220" dur="30s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".1;.22;.1" dur="7s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="260" fill="none" stroke="#D4AF37" stroke-width=".6" stroke-dasharray="10 18" stroke-opacity=".12">
+  <animate attributeName="stroke-dashoffset" values="0;-320" dur="45s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".08;.2;.08" dur="9s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="330" fill="none" stroke="#7FDBFF" stroke-width=".5" stroke-dasharray="12 20" stroke-opacity=".1">
+  <animate attributeName="stroke-dashoffset" values="0;400" dur="65s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".07;.18;.07" dur="11s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Core glow layers -->
+<circle cx="700" cy="380" r="100" fill="#D4AF37" fill-opacity=".03" filter="url(#gf15)">
+  <animate attributeName="r" values="90;115;90" dur="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="60" fill="#D4AF37" fill-opacity=".07" filter="url(#gf8)">
+  <animate attributeName="r" values="55;72;55" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="40" fill="#000" stroke="#D4AF37" stroke-width="1.5">
+  <animate attributeName="stroke-opacity" values=".6;1;.6" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="35" fill="none" stroke="#D4AF37" stroke-width=".5" stroke-dasharray="5 5">
+  <animateTransform attributeName="transform" type="rotate" from="0 700 380" to="360 700 380" dur="12s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="35" fill="none" stroke="#D4AF37" stroke-width=".3" stroke-dasharray="2 8">
+  <animateTransform attributeName="transform" type="rotate" from="0 700 380" to="-360 700 380" dur="8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="20" fill="#D4AF37" fill-opacity=".15">
+  <animate attributeName="r" values="18;26;18" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="fill-opacity" values=".12;.22;.12" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="6" fill="#D4AF37">
+  <animate attributeName="opacity" values=".8;1;.8" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="700" y="375" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold" letter-spacing="1">ORAKZAI</text>
+<text x="700" y="385" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold" letter-spacing="1">CORE</text>
+
+<!-- Expanding pulse rings from center -->
+<circle cx="700" cy="380" r="40" fill="none" stroke="#D4AF37" stroke-width=".8">
+  <animate attributeName="r" values="40;340;40" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".3;0;.3" dur="8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="700" cy="380" r="40" fill="none" stroke="#D4AF37" stroke-width=".5">
+  <animate attributeName="r" values="40;340;40" dur="8s" begin="-4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;0;.2" dur="8s" begin="-4s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ═══ RING 1 NODES (r=130, dur=28s) ═══ -->
+<!-- Technology -->
+<g><animateMotion dur="28s" repeatCount="indefinite" begin="0s"><mpath href="#r1"/></animateMotion>
+<circle cx="0" cy="0" r="28" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="34" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="28;40;28" dur="4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="4s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#D4AF37" font-weight="bold">TECH</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">25 SYS</text>
+</g>
+<!-- Finance -->
+<g><animateMotion dur="28s" repeatCount="indefinite" begin="-9.33s"><mpath href="#r1"/></animateMotion>
+<circle cx="0" cy="0" r="28" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="34" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="28;40;28" dur="4.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="4.5s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#D4AF37" font-weight="bold">FINANCE</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">20 SYS</text>
+</g>
+<!-- Blockchain -->
+<g><animateMotion dur="28s" repeatCount="indefinite" begin="-18.67s"><mpath href="#r1"/></animateMotion>
+<circle cx="0" cy="0" r="28" fill="#000" stroke="#7FDBFF" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="34" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="28;40;28" dur="3.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="3.8s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#7FDBFF" font-weight="bold">CHAIN</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D4AF37">30 SYS</text>
+</g>
+
+<!-- Data pulses on ring 1 -->
+<circle r="2.5" fill="#D4AF37"><animateMotion dur="28s" repeatCount="indefinite" begin="-4s"><mpath href="#r1"/></animateMotion><animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.03;0.12;1" dur="28s" repeatCount="indefinite" begin="-4s"/></circle>
+<circle r="2" fill="#7FDBFF"><animateMotion dur="28s" repeatCount="indefinite" begin="-16s"><mpath href="#r1"/></animateMotion><animate attributeName="opacity" values="0;0.8;0;0" keyTimes="0;0.03;0.12;1" dur="28s" repeatCount="indefinite" begin="-16s"/></circle>
+
+<!-- ═══ RING 2 NODES (r=190, dur=42s) ═══ -->
+<!-- Infrastructure -->
+<g><animateMotion dur="42s" repeatCount="indefinite" begin="0s"><mpath href="#r2"/></animateMotion>
+<circle cx="0" cy="0" r="30" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="37" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="30;44;30" dur="5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="5s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold">INFRA</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">20 SYS</text>
+</g>
+<!-- Energy -->
+<g><animateMotion dur="42s" repeatCount="indefinite" begin="-14s"><mpath href="#r2"/></animateMotion>
+<circle cx="0" cy="0" r="30" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="37" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="30;44;30" dur="5.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="5.5s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold">ENERGY</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">18 SYS</text>
+</g>
+<!-- Media -->
+<g><animateMotion dur="42s" repeatCount="indefinite" begin="-28s"><mpath href="#r2"/></animateMotion>
+<circle cx="0" cy="0" r="30" fill="#000" stroke="#7FDBFF" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="37" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="30;44;30" dur="4.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="4.2s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#7FDBFF" font-weight="bold">MEDIA</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D4AF37">22 SYS</text>
+</g>
+
+<!-- Data pulses on ring 2 -->
+<circle r="2.5" fill="#D4AF37"><animateMotion dur="42s" repeatCount="indefinite" begin="-7s"><mpath href="#r2"/></animateMotion><animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.02;0.08;1" dur="42s" repeatCount="indefinite" begin="-7s"/></circle>
+<circle r="2" fill="#7FDBFF"><animateMotion dur="42s" repeatCount="indefinite" begin="-25s"><mpath href="#r2"/></animateMotion><animate attributeName="opacity" values="0;0.8;0;0" keyTimes="0;0.02;0.08;1" dur="42s" repeatCount="indefinite" begin="-25s"/></circle>
+
+<!-- ═══ RING 3 NODES (r=260, dur=58s) ═══ -->
+<!-- Education -->
+<g><animateMotion dur="58s" repeatCount="indefinite" begin="0s"><mpath href="#r3"/></animateMotion>
+<circle cx="0" cy="0" r="31" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4.5s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="38" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="31;46;31" dur="6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="6s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold">EDUC</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">15 SYS</text>
+</g>
+<!-- Fashion -->
+<g><animateMotion dur="58s" repeatCount="indefinite" begin="-19.33s"><mpath href="#r3"/></animateMotion>
+<circle cx="0" cy="0" r="31" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="38" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="31;46;31" dur="5.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="5.2s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold">FASHION</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">18 SYS</text>
+</g>
+<!-- Healthcare -->
+<g><animateMotion dur="58s" repeatCount="indefinite" begin="-38.67s"><mpath href="#r3"/></animateMotion>
+<circle cx="0" cy="0" r="31" fill="#000" stroke="#7FDBFF" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="38" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="31;46;31" dur="6.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="6.5s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#7FDBFF" font-weight="bold">HEALTH</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D4AF37">12 SYS</text>
+</g>
+
+<!-- Data pulses on ring 3 -->
+<circle r="2.5" fill="#D4AF37"><animateMotion dur="58s" repeatCount="indefinite" begin="-10s"><mpath href="#r3"/></animateMotion><animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.015;0.06;1" dur="58s" repeatCount="indefinite" begin="-10s"/></circle>
+<circle r="2" fill="#7FDBFF"><animateMotion dur="58s" repeatCount="indefinite" begin="-35s"><mpath href="#r3"/></animateMotion><animate attributeName="opacity" values="0;0.8;0;0" keyTimes="0;0.015;0.06;1" dur="58s" repeatCount="indefinite" begin="-35s"/></circle>
+
+<!-- ═══ RING 4 NODES (r=330, dur=80s) ═══ -->
+<!-- Travel -->
+<g><animateMotion dur="80s" repeatCount="indefinite" begin="0s"><mpath href="#r4"/></animateMotion>
+<circle cx="0" cy="0" r="32" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="32;48;32" dur="7s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="7s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold">TRAVEL</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">12 SYS</text>
+</g>
+<!-- Industry -->
+<g><animateMotion dur="80s" repeatCount="indefinite" begin="-26.67s"><mpath href="#r4"/></animateMotion>
+<circle cx="0" cy="0" r="32" fill="#000" stroke="#D4AF37" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4.2s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="32;48;32" dur="6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="6s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#D4AF37" font-weight="bold">INDUSTRY</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF">20 SYS</text>
+</g>
+<!-- Textile -->
+<g><animateMotion dur="80s" repeatCount="indefinite" begin="-53.33s"><mpath href="#r4"/></animateMotion>
+<circle cx="0" cy="0" r="32" fill="#000" stroke="#7FDBFF" stroke-width="1.3"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="0" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="32;48;32" dur="7.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".4;0;.4" dur="7.5s" repeatCount="indefinite"/></circle>
+<text x="0" y="-4" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#7FDBFF" font-weight="bold">TEXTILE</text>
+<text x="0" y="8" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#D4AF37">16 SYS</text>
+</g>
+
+<!-- Data pulses on ring 4 -->
+<circle r="2.5" fill="#D4AF37"><animateMotion dur="80s" repeatCount="indefinite" begin="-13s"><mpath href="#r4"/></animateMotion><animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.01;0.05;1" dur="80s" repeatCount="indefinite" begin="-13s"/></circle>
+<circle r="2" fill="#7FDBFF"><animateMotion dur="80s" repeatCount="indefinite" begin="-50s"><mpath href="#r4"/></animateMotion><animate attributeName="opacity" values="0;0.8;0;0" keyTimes="0;0.01;0.05;1" dur="80s" repeatCount="indefinite" begin="-50s"/></circle>
+
+<!-- Title at top -->
+<text x="700" y="46" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" letter-spacing="4" fill="#D4AF37" opacity=".5">ECOSYSTEM ARCHITECTURE — 12 ACTIVE DIVISIONS — 250+ INTEGRATED SYSTEMS</text>
+
+<!-- Bottom system line -->
+<text x="700" y="745" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#D4AF37" opacity=".3">SYS_STATUS: ALL_DIVISIONS_NOMINAL :: LAST_SYNC: CONTINUOUS :: ARCH_LAYER: CIVILIZATIONAL</text>
+</svg>
