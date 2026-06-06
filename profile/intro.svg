@@ -1,0 +1,115 @@
+<svg width="1400" height="500" viewBox="0 0 1400 500" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+@keyframes starPulse{0%,100%{opacity:.08}50%{opacity:.9}}
+@keyframes scan{0%{transform:translateX(-1400px)}100%{transform:translateX(1400px)}}
+@keyframes particleDrift{0%{transform:translateY(0);opacity:0}20%{opacity:.6}80%{opacity:.4}100%{transform:translateY(-480px);opacity:0}}
+</style>
+<radialGradient id="voidBg" cx="50%" cy="50%" r="80%">
+<stop offset="0%" stop-color="#030306"/>
+<stop offset="100%" stop-color="#000000"/>
+</radialGradient>
+<radialGradient id="coreLight" cx="50%" cy="45%" r="40%">
+<stop offset="0%" stop-color="#D4AF37" stop-opacity=".06"/>
+<stop offset="100%" stop-color="#000" stop-opacity="0"/>
+</radialGradient>
+<filter id="hardGlow"><feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="softGlow"><feGaussianBlur stdDeviation="2"/></filter>
+<filter id="textBloom"><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<mask id="scanMask"><rect width="1400" height="500" fill="white"/></mask>
+</defs>
+
+<rect width="1400" height="500" fill="url(#voidBg)"/>
+<rect width="1400" height="500" fill="url(#coreLight)"/>
+
+<!-- Starfield -->
+<circle cx="47" cy="23" r=".9" fill="#fff" style="animation:starPulse 4.1s infinite"/>
+<circle cx="183" cy="61" r=".7" fill="#D4AF37" style="animation:starPulse 3.2s .5s infinite"/>
+<circle cx="310" cy="18" r="1" fill="#fff" style="animation:starPulse 5.3s 1s infinite"/>
+<circle cx="442" cy="44" r=".6" fill="#7FDBFF" style="animation:starPulse 2.8s .3s infinite"/>
+<circle cx="598" cy="12" r=".8" fill="#fff" style="animation:starPulse 4.7s 2s infinite"/>
+<circle cx="720" cy="38" r=".7" fill="#D4AF37" style="animation:starPulse 3.5s .8s infinite"/>
+<circle cx="854" cy="27" r="1" fill="#fff" style="animation:starPulse 6.1s 1.5s infinite"/>
+<circle cx="992" cy="55" r=".6" fill="#7FDBFF" style="animation:starPulse 2.9s .2s infinite"/>
+<circle cx="1123" cy="19" r=".8" fill="#fff" style="animation:starPulse 4.4s 3s infinite"/>
+<circle cx="1287" cy="43" r=".7" fill="#D4AF37" style="animation:starPulse 3.8s 1.2s infinite"/>
+<circle cx="1378" cy="31" r=".9" fill="#fff" style="animation:starPulse 5.0s .6s infinite"/>
+<circle cx="89" cy="108" r=".6" fill="#7FDBFF" style="animation:starPulse 3.7s 2.5s infinite"/>
+<circle cx="231" cy="142" r="1" fill="#fff" style="animation:starPulse 4.9s .9s infinite"/>
+<circle cx="567" cy="127" r=".7" fill="#D4AF37" style="animation:starPulse 2.6s 1.8s infinite"/>
+<circle cx="834" cy="115" r=".8" fill="#fff" style="animation:starPulse 5.5s .4s infinite"/>
+<circle cx="1067" cy="138" r=".6" fill="#7FDBFF" style="animation:starPulse 3.3s 2.2s infinite"/>
+<circle cx="1345" cy="121" r=".9" fill="#fff" style="animation:starPulse 4.2s 1.1s infinite"/>
+<circle cx="155" cy="420" r=".7" fill="#D4AF37" style="animation:starPulse 5.8s .7s infinite"/>
+<circle cx="390" cy="450" r=".6" fill="#fff" style="animation:starPulse 3.4s 2.8s infinite"/>
+<circle cx="623" cy="432" r=".8" fill="#7FDBFF" style="animation:starPulse 4.6s .1s infinite"/>
+<circle cx="912" cy="465" r="1" fill="#fff" style="animation:starPulse 2.7s 1.6s infinite"/>
+<circle cx="1178" cy="441" r=".7" fill="#D4AF37" style="animation:starPulse 5.2s 3.5s infinite"/>
+<circle cx="1298" cy="455" r=".6" fill="#fff" style="animation:starPulse 3.9s .3s infinite"/>
+
+<!-- Drifting particles -->
+<circle cx="280" cy="490" r="1.2" fill="#D4AF37" opacity="0" style="animation:particleDrift 8s 0s infinite"/>
+<circle cx="520" cy="490" r="1" fill="#7FDBFF" opacity="0" style="animation:particleDrift 11s 2s infinite"/>
+<circle cx="700" cy="490" r="1.4" fill="#D4AF37" opacity="0" style="animation:particleDrift 9s 4s infinite"/>
+<circle cx="900" cy="490" r="1" fill="#fff" opacity="0" style="animation:particleDrift 13s 1s infinite"/>
+<circle cx="1100" cy="490" r="1.2" fill="#D4AF37" opacity="0" style="animation:particleDrift 10s 6s infinite"/>
+<circle cx="380" cy="490" r=".8" fill="#7FDBFF" opacity="0" style="animation:particleDrift 12s 3s infinite"/>
+<circle cx="820" cy="490" r="1" fill="#fff" opacity="0" style="animation:particleDrift 7.5s 5s infinite"/>
+<circle cx="1200" cy="490" r=".9" fill="#D4AF37" opacity="0" style="animation:particleDrift 14s 2.5s infinite"/>
+
+<!-- Horizontal scan line -->
+<rect x="-1400" y="248" width="120" height="1" fill="url(#scanGrad)" opacity=".4" style="animation:scan 8s linear 1s infinite"/>
+
+<!-- Thin separator lines (decorative) -->
+<line x1="0" y1="200" x2="550" y2="200" stroke="#D4AF37" stroke-width=".3" stroke-opacity=".15" stroke-dasharray="3 8"/>
+<line x1="850" y1="200" x2="1400" y2="200" stroke="#D4AF37" stroke-width=".3" stroke-opacity=".15" stroke-dasharray="3 8"/>
+<line x1="0" y1="305" x2="550" y2="305" stroke="#D4AF37" stroke-width=".3" stroke-opacity=".12" stroke-dasharray="3 8"/>
+<line x1="850" y1="305" x2="1400" y2="305" stroke="#D4AF37" stroke-width=".3" stroke-opacity=".12" stroke-dasharray="3 8"/>
+
+<!-- Corner frame elements -->
+<polyline points="20,20 20,55 55,55" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity=".5"/>
+<polyline points="1380,20 1380,55 1345,55" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity=".5"/>
+<polyline points="20,480 20,445 55,445" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity=".5"/>
+<polyline points="1380,480 1380,445 1345,445" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity=".5"/>
+
+<!-- MAIN TITLE — fades in -->
+<text x="700" y="210" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="90" font-weight="bold" letter-spacing="22" fill="#D4AF37" filter="url(#textBloom)">
+ORAKZAI GROUP
+<animate attributeName="opacity" values="0;0;1;1;1;0;0" keyTimes="0;0.04;0.12;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- Separator line extending from center -->
+<line x1="700" y1="235" x2="700" y2="235" stroke="#D4AF37" stroke-width="1" stroke-opacity=".6">
+<animate attributeName="x1" values="700;700;360;360;360;700;700" keyTimes="0;0.13;0.22;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+<animate attributeName="x2" values="700;700;1040;1040;1040;700;700" keyTimes="0;0.13;0.22;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+<animate attributeName="stroke-opacity" values="0;0;.6;.6;.6;0;0" keyTimes="0;0.13;0.22;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+</line>
+
+<!-- LINE 1: SYSTEMS > COMPANIES -->
+<text x="700" y="275" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="17" letter-spacing="6" fill="#FFFFFF">
+SYSTEMS <tspan fill="#D4AF37">›</tspan> COMPANIES
+<animate attributeName="opacity" values="0;0;0;1;1;1;0;0" keyTimes="0;0.17;0.24;0.31;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- LINE 2: ECOSYSTEMS > PRODUCTS -->
+<text x="700" y="310" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="17" letter-spacing="6" fill="#FFFFFF">
+ECOSYSTEMS <tspan fill="#D4AF37">›</tspan> PRODUCTS
+<animate attributeName="opacity" values="0;0;0;0;1;1;1;0;0" keyTimes="0;0.17;0.24;0.35;0.40;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- LINE 3: INFRASTRUCTURE > PROFITS -->
+<text x="700" y="345" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="17" letter-spacing="6" fill="#FFFFFF">
+INFRASTRUCTURE <tspan fill="#D4AF37">›</tspan> PROFITS
+<animate attributeName="opacity" values="0;0;0;0;0;1;1;1;0;0" keyTimes="0;0.17;0.24;0.35;0.43;0.47;0.55;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- TAGLINE -->
+<text x="700" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="14" letter-spacing="3" fill="#7FDBFF" font-style="italic">
+Designing architectures that compound across generations.
+<animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0" keyTimes="0;0.17;0.24;0.35;0.43;0.50;0.58;0.88;0.96;1" dur="24s" repeatCount="indefinite"/>
+</text>
+
+<!-- Small coord indicator -->
+<text x="30" y="480" font-family="'Courier New',monospace" font-size="9" fill="#D4AF37" opacity=".3">SYS://ORAKZAI.CORE :: ACTIVE :: 12.DIV :: 250.SYS</text>
+<text x="1370" y="480" font-family="'Courier New',monospace" font-size="9" fill="#D4AF37" opacity=".3" text-anchor="end">ARCH.v7.2100 :: UPLINK</text>
+</svg>
