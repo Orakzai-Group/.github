@@ -1,38 +1,34 @@
 <div align="center">
 
-<img src="./intro.svg" width="100%" alt="Orakzai Group"/>
+<img src="./sovereign.svg" width="100%" alt="Orakzai Group — Sovereign Architecture"/>
+
+</div>
+
+<div align="center">
 
 <img src="./stats.svg" width="100%" alt="Orakzai Group Stats"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**Civilization Scale Systems. Generational Infrastructure. Sovereign Architecture.**
-
-*Designing systems that compound across decades — from digital intelligence to physical industry.*
-
-</div>
-
-<br/>
-
-<div align="center">
-
-![AI](https://img.shields.io/badge/Artificial%20Intelligence-000000?style=flat-square&logoColor=D4AF37&color=000000&labelColor=111111)
-![Blockchain](https://img.shields.io/badge/Blockchain%20%26%20Web3-000000?style=flat-square&color=000000&labelColor=111111)
-![Quantum](https://img.shields.io/badge/Quantum%20Computing-000000?style=flat-square&color=000000&labelColor=111111)
-![Cloud](https://img.shields.io/badge/Cloud%20Infrastructure-000000?style=flat-square&color=000000&labelColor=111111)
-![IoT](https://img.shields.io/badge/IoT%20%26%20Robotics-000000?style=flat-square&color=000000&labelColor=111111)
-![DeFi](https://img.shields.io/badge/DeFi%20%26%20Capital-000000?style=flat-square&color=000000&labelColor=111111)
 
 </div>
 
 ---
 
 <div align="center">
+
+![AI](https://img.shields.io/badge/Artificial%20Intelligence-FFD700?style=flat-square&logoColor=000&color=0a0a0a&labelColor=0a0a0a&logo=openai)
+![Blockchain](https://img.shields.io/badge/Blockchain%20%26%20Web3-4169E1?style=flat-square&color=0a0a0a&labelColor=0a0a0a)
+![Quantum](https://img.shields.io/badge/Quantum%20Computing-FFD700?style=flat-square&color=0a0a0a&labelColor=0a0a0a)
+![Cloud](https://img.shields.io/badge/Cloud%20Infrastructure-4169E1?style=flat-square&color=0a0a0a&labelColor=0a0a0a)
+![DeFi](https://img.shields.io/badge/DeFi%20%26%20Capital-FFD700?style=flat-square&color=0a0a0a&labelColor=0a0a0a)
+![IoT](https://img.shields.io/badge/IoT%20%26%20Robotics-4169E1?style=flat-square&color=0a0a0a&labelColor=0a0a0a)
+
+</div>
+
+<br/>
+
+<div align="center">
+
 <img src="./sector_header.svg" width="100%" alt="12 Mother Companies"/>
+
 </div>
 
 <br/>
@@ -56,11 +52,10 @@
 
 ---
 
-## Project Registry — All 250 Divisions
+## ◈ Project Registry — All 250 Divisions
 
 <details>
-<summary><strong>01 &nbsp;·&nbsp; Orakzai Technologies</strong> &nbsp;—&nbsp; 25 Projects &nbsp;·&nbsp; AI · Robotics · Quantum · Cloud</summary>
-
+<summary><strong>01 · Orakzai Technologies</strong> — 25 Projects · AI · Robotics · Quantum · Cloud</summary>
 <br/>
 
 | # | Project | Description |
@@ -94,8 +89,7 @@
 </details>
 
 <details>
-<summary><strong>02 &nbsp;·&nbsp; Orakzai Finance & Capital</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Banking · DeFi · Capital Networks</summary>
-
+<summary><strong>02 · Orakzai Finance & Capital</strong> — 20 Projects · Banking · DeFi · Capital Networks</summary>
 <br/>
 
 | # | Project | Description |
@@ -124,8 +118,7 @@
 </details>
 
 <details>
-<summary><strong>03 &nbsp;·&nbsp; Orakzai Real Estate & Infrastructure</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Smart Cities · Builders · Parks</summary>
-
+<summary><strong>03 · Orakzai Real Estate & Infrastructure</strong> — 20 Projects · Smart Cities · Builders</summary>
 <br/>
 
 | # | Project | Description |
@@ -154,8 +147,7 @@
 </details>
 
 <details>
-<summary><strong>04 &nbsp;·&nbsp; Orakzai Food & Beverages</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Restaurants · Farms · Exports</summary>
-
+<summary><strong>04 · Orakzai Food & Beverages</strong> — 20 Projects · Restaurants · Farms · Exports</summary>
 <br/>
 
 | # | Project | Description |
@@ -184,8 +176,7 @@
 </details>
 
 <details>
-<summary><strong>05 &nbsp;·&nbsp; Orakzai Media & Entertainment</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Film · News · OTT · Esports</summary>
-
+<summary><strong>05 · Orakzai Media & Entertainment</strong> — 20 Projects · Film · News · OTT · Esports</summary>
 <br/>
 
 | # | Project | Description |
@@ -214,8 +205,7 @@
 </details>
 
 <details>
-<summary><strong>06 &nbsp;·&nbsp; Orakzai Lifestyle & Fashion</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Apparel · Jewelry · Luxury</summary>
-
+<summary><strong>06 · Orakzai Lifestyle & Fashion</strong> — 20 Projects · Apparel · Jewelry · Luxury</summary>
 <br/>
 
 | # | Project | Description |
@@ -244,8 +234,7 @@
 </details>
 
 <details>
-<summary><strong>07 &nbsp;·&nbsp; Orakzai Travel & Hospitality</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Hotels · Airlines · Logistics</summary>
-
+<summary><strong>07 · Orakzai Travel & Hospitality</strong> — 20 Projects · Hotels · Airlines · Logistics</summary>
 <br/>
 
 | # | Project | Description |
@@ -274,8 +263,7 @@
 </details>
 
 <details>
-<summary><strong>08 &nbsp;·&nbsp; Orakzai Energy & Industry</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Renewables · EV · Mining · Steel</summary>
-
+<summary><strong>08 · Orakzai Energy & Industry</strong> — 20 Projects · Renewables · EV · Mining · Steel</summary>
 <br/>
 
 | # | Project | Description |
@@ -304,8 +292,7 @@
 </details>
 
 <details>
-<summary><strong>09 &nbsp;·&nbsp; Orakzai Education & Health</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Universities · Hospitals · Biotech</summary>
-
+<summary><strong>09 · Orakzai Education & Health</strong> — 20 Projects · Universities · Hospitals · Biotech</summary>
 <br/>
 
 | # | Project | Description |
@@ -334,8 +321,7 @@
 </details>
 
 <details>
-<summary><strong>10 &nbsp;·&nbsp; Orakzai Base</strong> &nbsp;—&nbsp; 31 Projects &nbsp;·&nbsp; Exchange · Chain · DeFi · NFT · DAO</summary>
-
+<summary><strong>10 · Orakzai Base</strong> — 31 Projects · Exchange · Chain · DeFi · NFT · DAO</summary>
 <br/>
 
 | # | Project | Description |
@@ -375,8 +361,7 @@
 </details>
 
 <details>
-<summary><strong>11 &nbsp;·&nbsp; Orakzai Mills</strong> &nbsp;—&nbsp; 15 Projects &nbsp;·&nbsp; Food Processing · Agro-Industry</summary>
-
+<summary><strong>11 · Orakzai Mills</strong> — 15 Projects · Food Processing · Agro-Industry</summary>
 <br/>
 
 | # | Project | Description |
@@ -400,8 +385,7 @@
 </details>
 
 <details>
-<summary><strong>12 &nbsp;·&nbsp; Orakzai Textile</strong> &nbsp;—&nbsp; 20 Projects &nbsp;·&nbsp; Garments · Exports · Manufacturing</summary>
-
+<summary><strong>12 · Orakzai Textile</strong> — 20 Projects · Garments · Exports · Manufacturing</summary>
 <br/>
 
 | # | Project | Description |
@@ -434,21 +418,21 @@
 ---
 
 <div align="center">
-<img src="./galaxy.svg" width="100%" alt="Orakzai Ecosystem Map"/>
+
+<img src="./osg.svg" width="100%" alt="Orakzai Sovereign Grid — Live Network Status"/>
+
 </div>
 
 ---
 
 <div align="center">
+
 <img src="./command.svg" width="100%" alt="Orakzai Command Center"/>
+
 </div>
 
 ---
 
 <div align="center">
-
-<sub><sup>
-ORAKZAI GROUP &nbsp;·&nbsp; SYSTEMS ARCHITECTURE &nbsp;·&nbsp; 12 DIVISIONS &nbsp;·&nbsp; 250+ PROJECTS &nbsp;·&nbsp; CIVILIZATION SCALE
-</sup></sub>
-
+<sub><sup>ORAKZAI GROUP &nbsp;·&nbsp; SYSTEMS ARCHITECTURE &nbsp;·&nbsp; 12 DIVISIONS &nbsp;·&nbsp; 250+ PROJECTS &nbsp;·&nbsp; CIVILIZATION SCALE &nbsp;·&nbsp; EPOCH 2100</sup></sub>
 </div>
