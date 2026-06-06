@@ -1,0 +1,42 @@
+<svg width="1400" height="90" viewBox="0 0 1400 90" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+@keyframes numPulse{0%,100%{opacity:.9}50%{opacity:1}}
+@keyframes borderGlow{0%,100%{stroke-opacity:.25}50%{stroke-opacity:.55}}
+</style>
+<linearGradient id="statBg" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#05050f"/>
+<stop offset="50%" stop-color="#08080f"/>
+<stop offset="100%" stop-color="#05050f"/>
+</linearGradient>
+<filter id="sgf"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1400" height="90" fill="url(#statBg)"/>
+<rect x="0" y="0" width="1400" height="1" fill="#D4AF37" fill-opacity=".3"/>
+<rect x="0" y="89" width="1400" height="1" fill="#D4AF37" fill-opacity=".3"/>
+
+<!-- Dividers -->
+<line x1="350" y1="12" x2="350" y2="78" stroke="#D4AF37" stroke-width=".5" stroke-opacity=".25"/>
+<line x1="700" y1="12" x2="700" y2="78" stroke="#D4AF37" stroke-width=".5" stroke-opacity=".25"/>
+<line x1="1050" y1="12" x2="1050" y2="78" stroke="#D4AF37" stroke-width=".5" stroke-opacity=".25"/>
+
+<!-- FOUNDER -->
+<text x="175" y="34" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#D4AF37" opacity=".5">FOUNDER</text>
+<text x="175" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#ffffff" font-weight="bold" letter-spacing="1">Muhammad Faisal Orakzai</text>
+<text x="175" y="75" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#7FDBFF" opacity=".6" letter-spacing="2">CHAIRMAN · SYSTEMS ARCHITECT</text>
+
+<!-- MOTHER COMPANIES -->
+<text x="525" y="30" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#D4AF37" opacity=".5">MOTHER COMPANIES</text>
+<text x="525" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="38" fill="#D4AF37" font-weight="bold" style="animation:numPulse 3s infinite">12</text>
+<text x="525" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#7FDBFF" opacity=".6" letter-spacing="2">STRATEGIC VERTICALS</text>
+
+<!-- PROJECTS -->
+<text x="875" y="30" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#D4AF37" opacity=".5">ACTIVE PROJECTS</text>
+<text x="875" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="38" fill="#D4AF37" font-weight="bold" style="animation:numPulse 3s .5s infinite">250+</text>
+<text x="875" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#7FDBFF" opacity=".6" letter-spacing="2">ACROSS ALL DIVISIONS</text>
+
+<!-- VISION -->
+<text x="1225" y="30" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#D4AF37" opacity=".5">CIVILIZATION HORIZON</text>
+<text x="1225" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="38" fill="#D4AF37" font-weight="bold" style="animation:numPulse 3s 1s infinite">2100</text>
+<text x="1225" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#7FDBFF" opacity=".6" letter-spacing="2">TARGET EPOCH</text>
+</svg>
