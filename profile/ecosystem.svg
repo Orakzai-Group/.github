@@ -1,0 +1,185 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+@keyframes nodeGlow{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes lineFlow{0%{stroke-dashoffset:200}100%{stroke-dashoffset:0}}
+@keyframes centerPulse{0%,100%{r:45;opacity:.9}50%{r:55;opacity:1}}
+@keyframes ringExpand{0%{r:70;opacity:.3}100%{r:130;opacity:0}}
+</style>
+<radialGradient id="bg2" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#050505"/>
+<stop offset="100%" stop-color="#000000"/>
+</radialGradient>
+<radialGradient id="nodeGrad" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#D4AF37" stop-opacity=".3"/>
+<stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+</radialGradient>
+<filter id="gf"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1200" height="620" fill="url(#bg2)"/>
+
+<!-- Background stars -->
+<circle cx="50" cy="50" r="1" fill="#D4AF37" opacity=".3"><animate attributeName="opacity" values=".1;.6;.1" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="30" r=".8" fill="#fff" opacity=".3"><animate attributeName="opacity" values=".1;.5;.1" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="1100" cy="80" r="1" fill="#7FDBFF" opacity=".3"><animate attributeName="opacity" values=".1;.6;.1" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="1050" cy="550" r=".8" fill="#D4AF37" opacity=".3"><animate attributeName="opacity" values=".1;.5;.1" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="80" cy="580" r="1" fill="#fff" opacity=".3"><animate attributeName="opacity" values=".1;.6;.1" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="30" r=".8" fill="#7FDBFF" opacity=".3"><animate attributeName="opacity" values=".1;.5;.1" dur="4.2s" repeatCount="indefinite"/></circle>
+<circle cx="200" cy="300" r="1" fill="#D4AF37" opacity=".2"><animate attributeName="opacity" values=".1;.4;.1" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="1000" cy="300" r="1" fill="#7FDBFF" opacity=".2"><animate attributeName="opacity" values=".1;.4;.1" dur="5.5s" repeatCount="indefinite"/></circle>
+
+<!-- Connection lines from center (600,310) to each node -->
+<!-- Technology (820,310) -->
+<line x1="600" y1="310" x2="820" y2="310" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3s" repeatCount="indefinite"/>
+</line>
+<!-- Finance (790,420) -->
+<line x1="600" y1="310" x2="790" y2="420" stroke="#7FDBFF" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3.5s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3.5s" repeatCount="indefinite"/>
+</line>
+<!-- Infrastructure (710,490) -->
+<line x1="600" y1="310" x2="710" y2="490" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="4s" repeatCount="indefinite"/>
+</line>
+<!-- Energy (600,530) -->
+<line x1="600" y1="310" x2="600" y2="530" stroke="#7FDBFF" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="4.5s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="4.5s" repeatCount="indefinite"/>
+</line>
+<!-- Education (490,490) -->
+<line x1="600" y1="310" x2="490" y2="490" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3.2s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3.2s" repeatCount="indefinite"/>
+</line>
+<!-- Media (410,420) -->
+<line x1="600" y1="310" x2="410" y2="420" stroke="#7FDBFF" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3.8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3.8s" repeatCount="indefinite"/>
+</line>
+<!-- Fashion (380,310) -->
+<line x1="600" y1="310" x2="380" y2="310" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="2.8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="2.8s" repeatCount="indefinite"/>
+</line>
+<!-- Travel (410,200) -->
+<line x1="600" y1="310" x2="410" y2="200" stroke="#7FDBFF" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="4.2s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="4.2s" repeatCount="indefinite"/>
+</line>
+<!-- Food (490,130) -->
+<line x1="600" y1="310" x2="490" y2="130" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3.6s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3.6s" repeatCount="indefinite"/>
+</line>
+<!-- Industrial (600,90) -->
+<line x1="600" y1="310" x2="600" y2="90" stroke="#7FDBFF" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3s" repeatCount="indefinite"/>
+</line>
+<!-- Textile (710,130) -->
+<line x1="600" y1="310" x2="710" y2="130" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="4.8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="4.8s" repeatCount="indefinite"/>
+</line>
+<!-- Blockchain (790,200) -->
+<line x1="600" y1="310" x2="790" y2="200" stroke="#7FDBFF" stroke-width="1.2" stroke-dasharray="6 4">
+  <animate attributeName="stroke-dashoffset" values="100;0" dur="3.4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".2;.6;.2" dur="3.4s" repeatCount="indefinite"/>
+</line>
+
+<!-- Outer ring pulse -->
+<circle cx="600" cy="310" r="80" fill="none" stroke="#D4AF37" stroke-width=".5" stroke-opacity=".2">
+  <animate attributeName="r" values="80;240;80" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".3;0;.3" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Center Core -->
+<circle cx="600" cy="310" r="55" fill="#D4AF37" fill-opacity=".08" filter="url(#gf)">
+  <animate attributeName="r" values="50;65;50" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="600" cy="310" r="42" fill="#000" stroke="#D4AF37" stroke-width="1.5">
+  <animate attributeName="stroke-opacity" values=".6;1;.6" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="600" cy="310" r="38" fill="none" stroke="#D4AF37" stroke-width=".5" stroke-dasharray="4 4">
+  <animateTransform attributeName="transform" type="rotate" from="0 600 310" to="360 600 310" dur="15s" repeatCount="indefinite"/>
+</circle>
+<text x="600" y="303" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#D4AF37" letter-spacing="1" font-weight="bold">ORAKZAI</text>
+<text x="600" y="315" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#D4AF37" letter-spacing="1" font-weight="bold">GROUP</text>
+<text x="600" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#7FDBFF" letter-spacing=".5">CORE</text>
+
+<!-- Division nodes function -->
+<!-- Node: Technology (820,310) -->
+<circle cx="820" cy="310" r="36" fill="#000" stroke="#D4AF37" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="310" r="40" fill="none" stroke="#D4AF37" stroke-width=".4" stroke-opacity=".2"><animate attributeName="r" values="36;46;36" dur="4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4s" repeatCount="indefinite"/></circle>
+<text x="820" y="306" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Technology</text>
+<text x="820" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">25 Systems</text>
+
+<!-- Node: Finance (790,420) -->
+<circle cx="790" cy="420" r="36" fill="#000" stroke="#7FDBFF" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="790" cy="420" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="4.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4.5s" repeatCount="indefinite"/></circle>
+<text x="790" y="416" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Finance</text>
+<text x="790" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">20 Systems</text>
+
+<!-- Node: Infrastructure (710,490) -->
+<circle cx="710" cy="490" r="36" fill="#000" stroke="#D4AF37" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="710" cy="490" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="5s" repeatCount="indefinite"/></circle>
+<text x="710" y="486" text-anchor="middle" font-family="Georgia,serif" font-size="7.5" fill="#D4AF37" font-weight="bold">Infrastructure</text>
+<text x="710" y="498" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">20 Systems</text>
+
+<!-- Node: Energy (600,530) -->
+<circle cx="600" cy="530" r="36" fill="#000" stroke="#7FDBFF" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="530" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="4.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4.2s" repeatCount="indefinite"/></circle>
+<text x="600" y="526" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Energy</text>
+<text x="600" y="538" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">18 Systems</text>
+
+<!-- Node: Education (490,490) -->
+<circle cx="490" cy="490" r="36" fill="#000" stroke="#D4AF37" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4.5s" repeatCount="indefinite"/></circle>
+<circle cx="490" cy="490" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="5.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="5.5s" repeatCount="indefinite"/></circle>
+<text x="490" y="486" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Education</text>
+<text x="490" y="498" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">15 Systems</text>
+
+<!-- Node: Media (410,420) -->
+<circle cx="410" cy="420" r="36" fill="#000" stroke="#7FDBFF" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="410" cy="420" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="4.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4.8s" repeatCount="indefinite"/></circle>
+<text x="410" y="416" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Media</text>
+<text x="410" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">22 Systems</text>
+
+<!-- Node: Fashion (380,310) -->
+<circle cx="380" cy="310" r="36" fill="#000" stroke="#D4AF37" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="380" cy="310" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="3.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="3.8s" repeatCount="indefinite"/></circle>
+<text x="380" y="306" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Fashion</text>
+<text x="380" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">18 Systems</text>
+
+<!-- Node: Travel (410,200) -->
+<circle cx="410" cy="200" r="36" fill="#000" stroke="#7FDBFF" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4.2s" repeatCount="indefinite"/></circle>
+<circle cx="410" cy="200" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="5.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="5.2s" repeatCount="indefinite"/></circle>
+<text x="410" y="196" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Travel</text>
+<text x="410" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">12 Systems</text>
+
+<!-- Node: Food (490,130) -->
+<circle cx="490" cy="130" r="36" fill="#000" stroke="#D4AF37" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.6s" repeatCount="indefinite"/></circle>
+<circle cx="490" cy="130" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="4.6s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4.6s" repeatCount="indefinite"/></circle>
+<text x="490" y="126" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Food</text>
+<text x="490" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">14 Systems</text>
+
+<!-- Node: Industrial (600,90) -->
+<circle cx="600" cy="90" r="36" fill="#000" stroke="#7FDBFF" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="90" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4s" repeatCount="indefinite"/></circle>
+<text x="600" y="86" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Industrial</text>
+<text x="600" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">20 Systems</text>
+
+<!-- Node: Textile (710,130) -->
+<circle cx="710" cy="130" r="36" fill="#000" stroke="#D4AF37" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="4.8s" repeatCount="indefinite"/></circle>
+<circle cx="710" cy="130" r="40" fill="none" stroke="#D4AF37" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="5.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="5.8s" repeatCount="indefinite"/></circle>
+<text x="710" y="126" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Textile</text>
+<text x="710" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">16 Systems</text>
+
+<!-- Node: Blockchain (790,200) -->
+<circle cx="790" cy="200" r="36" fill="#000" stroke="#7FDBFF" stroke-width="1.2"><animate attributeName="stroke-opacity" values=".5;1;.5" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="790" cy="200" r="40" fill="none" stroke="#7FDBFF" stroke-width=".4"><animate attributeName="r" values="36;46;36" dur="4.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".3;0;.3" dur="4.4s" repeatCount="indefinite"/></circle>
+<text x="790" y="196" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#D4AF37" font-weight="bold">Blockchain</text>
+<text x="790" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#7FDBFF">30 Systems</text>
+</svg>
