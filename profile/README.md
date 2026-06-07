@@ -2,10 +2,20 @@
 
   <img src="./sovereign.svg" width="100%" alt="Orakzai Group — Sovereign Architecture"/>
 
-  <br/>
+  </div>
 
+  <div align="center">
+
+  [![Website](https://img.shields.io/badge/🌐_WEBSITE-orakzai--group.github.io-050505?style=for-the-badge&color=FFD700&labelColor=050505)](https://orakzai-group.github.io)
+  [![GitHub Org](https://img.shields.io/badge/⚙_GITHUB-Orakzai--Group-050505?style=for-the-badge&color=4169E1&labelColor=050505)](https://github.com/Orakzai-Group)
+  [![Contact](https://img.shields.io/badge/📧_CONTACT-info@orakzaibond.com-050505?style=for-the-badge&color=050505&labelColor=222)](mailto:info@orakzaibond.com)
+
+  </div>
+
+  ---
+
+  <div align="center">
   <img src="./osg.svg" width="100%" alt="OSG Live Network Monitor"/>
-
   </div>
 
   ---
@@ -15,9 +25,9 @@
   | | | |
   |:---:|:---:|:---:|
   | **🏛 FOUNDER** | **Muhammad Faisal Orakzai** | **Chairman & Systems Architect** |
-  | **🌐 ORG** | **[github.com/Orakzai-Group](https://github.com/Orakzai-Group)** | **Global Operations** |
-  | **📊 DIVISIONS** | **12 Mother Companies** | **250+ Active Systems** |
-  | **🎯 EPOCH** | **2100 Target** | **Civilization Scale** |
+  | **🌐 WEBSITE** | **[orakzai-group.github.io](https://orakzai-group.github.io)** | **Live · All 12 Divisions** |
+  | **📍 LOCATION** | **Global — Pakistan · UAE · UK · USA** | **Civilization Scale** |
+  | **📊 SYSTEMS** | **12 Divisions · 250+ Projects** | **Target Epoch 2100** |
 
   </div>
 
@@ -33,43 +43,48 @@
 
   <div align="center">
 
-  [![Orakzai Technologies](https://img.shields.io/badge/01-ORAKZAI%20TECHNOLOGIES-050505?style=for-the-badge&color=050505&labelColor=FFD700)](https://github.com/Orakzai-Group/Orakzai-Technologies) [![Orakzai Finance](https://img.shields.io/badge/02-ORAKZAI%20FINANCE-050505?style=for-the-badge&color=050505&labelColor=FFD700)](https://github.com/Orakzai-Group/Orakzai-Finance) [![Orakzai Real Estate](https://img.shields.io/badge/03-ORAKZAI%20REAL%20ESTATE-050505?style=for-the-badge&color=050505&labelColor=FFD700)](https://github.com/Orakzai-Group/Orakzai-RealEstate)
-
-  [![Orakzai Food](https://img.shields.io/badge/04-ORAKZAI%20FOOD-050505?style=for-the-badge&color=050505&labelColor=FFD700)](https://github.com/Orakzai-Group/Orakzai-Food) [![Orakzai Media](https://img.shields.io/badge/05-ORAKZAI%20MEDIA-050505?style=for-the-badge&color=050505&labelColor=FFD700)](https://github.com/Orakzai-Group/Orakzai-Media) [![Orakzai Lifestyle](https://img.shields.io/badge/06-ORAKZAI%20LIFESTYLE-050505?style=for-the-badge&color=050505&labelColor=FFD700)](https://github.com/Orakzai-Group/Orakzai-Lifestyle)
-
-  [![Orakzai Travel](https://img.shields.io/badge/07-ORAKZAI%20TRAVEL-050505?style=for-the-badge&color=050505&labelColor=4169E1)](https://github.com/Orakzai-Group/Orakzai-Travel) [![Orakzai Energy](https://img.shields.io/badge/08-ORAKZAI%20ENERGY-050505?style=for-the-badge&color=050505&labelColor=4169E1)](https://github.com/Orakzai-Group/Orakzai-Energy) [![Orakzai Education](https://img.shields.io/badge/09-ORAKZAI%20EDUCATION-050505?style=for-the-badge&color=050505&labelColor=4169E1)](https://github.com/Orakzai-Group/Orakzai-Education)
-
-  [![Orakzai Base](https://img.shields.io/badge/10-ORAKZAI%20BASE-050505?style=for-the-badge&color=050505&labelColor=8B5CF6)](https://github.com/Orakzai-Group/Orakzai-Base) [![Orakzai Mills](https://img.shields.io/badge/11-ORAKZAI%20MILLS-050505?style=for-the-badge&color=050505&labelColor=84CC16)](https://github.com/Orakzai-Group/Orakzai-Mills) [![Orakzai Textile](https://img.shields.io/badge/12-ORAKZAI%20TEXTILE-050505?style=for-the-badge&color=050505&labelColor=F43F5E)](https://github.com/Orakzai-Group/Orakzai-Textile)
+  [![01 Technologies](https://img.shields.io/badge/01-TECHNOLOGIES-FFD700?style=flat-square&color=050505&labelColor=FFD700&logo=githubactions&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Technologies)
+  [![02 Finance](https://img.shields.io/badge/02-FINANCE-22C55E?style=flat-square&color=050505&labelColor=22C55E&logo=bitcoin&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Finance)
+  [![03 Real Estate](https://img.shields.io/badge/03-REAL%20ESTATE-F97316?style=flat-square&color=050505&labelColor=F97316&logo=mapbox&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-RealEstate)
+  [![04 Food](https://img.shields.io/badge/04-FOOD-EF4444?style=flat-square&color=050505&labelColor=EF4444&logo=leaf&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Food)
+  [![05 Media](https://img.shields.io/badge/05-MEDIA-A855F7?style=flat-square&color=050505&labelColor=A855F7&logo=youtube&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Media)
+  [![06 Lifestyle](https://img.shields.io/badge/06-LIFESTYLE-EC4899?style=flat-square&color=050505&labelColor=EC4899&logo=artstation&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Lifestyle)
+  [![07 Travel](https://img.shields.io/badge/07-TRAVEL-06B6D4?style=flat-square&color=050505&labelColor=06B6D4&logo=googleearth&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Travel)
+  [![08 Energy](https://img.shields.io/badge/08-ENERGY-F59E0B?style=flat-square&color=050505&labelColor=F59E0B&logo=lightning&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Energy)
+  [![09 Education](https://img.shields.io/badge/09-EDUCATION-10B981?style=flat-square&color=050505&labelColor=10B981&logo=academia&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Education)
+  [![10 Base](https://img.shields.io/badge/10-BASE%20CHAIN-8B5CF6?style=flat-square&color=050505&labelColor=8B5CF6&logo=ethereum&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Base)
+  [![11 Mills](https://img.shields.io/badge/11-MILLS-84CC16?style=flat-square&color=050505&labelColor=84CC16&logo=leaf&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Mills)
+  [![12 Textile](https://img.shields.io/badge/12-TEXTILE-F43F5E?style=flat-square&color=050505&labelColor=F43F5E&logo=tailwindcss&logoColor=000)](https://github.com/Orakzai-Group/Orakzai-Textile)
 
   </div>
 
-  ---
+  <br/>
 
   | # | Mother Company | Sector | Projects | Core Verticals |
   |:---:|:---|:---|:---:|:---|
-  | 01 | [Orakzai Technologies](https://github.com/Orakzai-Group/Orakzai-Technologies) | Digital & Deep Tech | 25 | AI · Robotics · Quantum · Cloud · Cybersecurity · IoT |
-  | 02 | [Orakzai Finance & Capital](https://github.com/Orakzai-Group/Orakzai-Finance) | Financial Systems | 20 | Banking · DeFi · Forex · Insurance · Investments |
-  | 03 | [Orakzai Real Estate](https://github.com/Orakzai-Group/Orakzai-RealEstate) | Physical Infrastructure | 20 | Builders · Smart Cities · Housing · Resorts · Parks |
-  | 04 | [Orakzai Food & Beverages](https://github.com/Orakzai-Group/Orakzai-Food) | Agri-Food Systems | 20 | Restaurants · Farms · Catering · Beverages · Exports |
-  | 05 | [Orakzai Media & Entertainment](https://github.com/Orakzai-Group/Orakzai-Media) | Content & Culture | 20 | Film · News · Music · OTT · Esports · Events |
-  | 06 | [Orakzai Lifestyle & Fashion](https://github.com/Orakzai-Group/Orakzai-Lifestyle) | Consumer & Luxury | 20 | Apparel · Cosmetics · Jewelry · Wellness · Fitness |
-  | 07 | [Orakzai Travel & Hospitality](https://github.com/Orakzai-Group/Orakzai-Travel) | Mobility & Logistics | 20 | Hotels · Airlines · Tours · Ride-Hailing · Shipping |
-  | 08 | [Orakzai Energy & Industry](https://github.com/Orakzai-Group/Orakzai-Energy) | Industrial Systems | 20 | Renewables · Oil & Gas · EV · Mining · Steel |
-  | 09 | [Orakzai Education & Health](https://github.com/Orakzai-Group/Orakzai-Education) | Human Capital | 20 | Schools · Universities · Hospitals · Biotech · Pharma |
-  | 10 | [Orakzai Base](https://github.com/Orakzai-Group/Orakzai-Base) | Blockchain & Crypto | 31 | Exchange · Chain · DeFi · NFT · DAO · Metaverse |
-  | 11 | [Orakzai Mills](https://github.com/Orakzai-Group/Orakzai-Mills) | Agro-Processing | 15 | Sugar · Rice · Flour · Oil · Cotton · Paper |
-  | 12 | [Orakzai Textile](https://github.com/Orakzai-Group/Orakzai-Textile) | Textile Manufacturing | 20 | Garments · Spinning · Denim · Silk · Global Export |
-  | **—** | **TOTAL** | **12 Divisions** | **250+** | **Civilization Scale** |
+  | 01 | [Orakzai Technologies](https://github.com/Orakzai-Group/Orakzai-Technologies) | Digital & Deep Tech | **25** | AI · Robotics · Quantum · Cloud · Cybersecurity · IoT |
+  | 02 | [Orakzai Finance & Capital](https://github.com/Orakzai-Group/Orakzai-Finance) | Financial Systems | **20** | Banking · DeFi · Forex · Insurance · Investments |
+  | 03 | [Orakzai Real Estate](https://github.com/Orakzai-Group/Orakzai-RealEstate) | Physical Infrastructure | **20** | Builders · Smart Cities · Housing · Resorts · Parks |
+  | 04 | [Orakzai Food & Beverages](https://github.com/Orakzai-Group/Orakzai-Food) | Agri-Food Systems | **20** | Restaurants · Farms · Catering · Beverages · Exports |
+  | 05 | [Orakzai Media & Entertainment](https://github.com/Orakzai-Group/Orakzai-Media) | Content & Culture | **20** | Film · News · Music · OTT · Esports · Events |
+  | 06 | [Orakzai Lifestyle & Fashion](https://github.com/Orakzai-Group/Orakzai-Lifestyle) | Consumer & Luxury | **20** | Apparel · Cosmetics · Jewelry · Wellness · Fitness |
+  | 07 | [Orakzai Travel & Hospitality](https://github.com/Orakzai-Group/Orakzai-Travel) | Mobility & Logistics | **20** | Hotels · Airlines · Tours · Ride-Hailing · Shipping |
+  | 08 | [Orakzai Energy & Industry](https://github.com/Orakzai-Group/Orakzai-Energy) | Industrial Systems | **20** | Renewables · Oil & Gas · EV · Mining · Steel |
+  | 09 | [Orakzai Education & Health](https://github.com/Orakzai-Group/Orakzai-Education) | Human Capital | **20** | Schools · Universities · Hospitals · Biotech · Pharma |
+  | 10 | [Orakzai Base](https://github.com/Orakzai-Group/Orakzai-Base) | Blockchain & Crypto | **31** | Exchange · Chain · DeFi · NFT · DAO · Metaverse |
+  | 11 | [Orakzai Mills](https://github.com/Orakzai-Group/Orakzai-Mills) | Agro-Processing | **15** | Sugar · Rice · Flour · Oil · Cotton · Paper |
+  | 12 | [Orakzai Textile](https://github.com/Orakzai-Group/Orakzai-Textile) | Textile Manufacturing | **20** | Garments · Spinning · Denim · Silk · Global Export |
+  | **—** | **[Visit Full Website →](https://orakzai-group.github.io)** | **12 Divisions** | **250+** | **Civilization Scale** |
 
   ---
 
   <div align="center">
-  <img src="./command.svg" width="100%" alt="Orakzai Group Command Structure"/>
+  <img src="./command.svg" width="100%" alt="Orakzai Group — VII Civilization Layers"/>
   </div>
 
   ---
 
-  ## ◈ Project Registry — All 250 Divisions
+  ## ◈ Project Registry — All 250+ Systems
 
   <details>
   <summary><b>01 · Orakzai Technologies — 25 Projects · AI · Robotics · Quantum · Cloud</b></summary>
@@ -421,24 +436,26 @@
   ---
 
   <div align="center">
-  <img src="./intro.svg" width="100%" alt="Orakzai Group — Founder"/>
+  <img src="./intro.svg" width="100%" alt="Orakzai Group — Founder Vision"/>
   </div>
 
   ---
 
   <div align="center">
 
-  **🌍 Website:** [orakzaigroup.com](https://orakzaigroup.com) &nbsp;|&nbsp; **📧 Contact:** info@orakzaibond.com &nbsp;|&nbsp; **📍 Global — Pakistan · UAE · UK · USA**
-
-  *"We are not building a company. We are building a civilization layer."*
+  *"We are not building a company. We are building a civilization layer — designing systems that compound across centuries."*
 
   **— Muhammad Faisal Orakzai, Chairman & Systems Architect**
 
+  <br/>
+
+  [![Visit Website](https://img.shields.io/badge/🚀_EXPLORE_ALL_DIVISIONS-orakzai--group.github.io-FFD700?style=for-the-badge&color=FFD700&labelColor=050505)](https://orakzai-group.github.io)
+
   </div>
 
   ---
 
   <div align="center">
-  <sub><sup>ORAKZAI GROUP · SOVEREIGN ARCHITECTURE · 12 DIVISIONS · 250+ SYSTEMS · TARGET EPOCH 2100 · CIVILIZATION SCALE</sup></sub>
+  <sub><sup>ORAKZAI GROUP · SOVEREIGN ARCHITECTURE · 12 DIVISIONS · 250+ SYSTEMS · TARGET EPOCH 2100 · CIVILIZATION SCALE · GLOBAL</sup></sub>
   </div>
   
